@@ -1,9 +1,0 @@
-.tiltComponent {
-    width: 50vw;
-    aspect-ratio: 2;
-    margin: auto;
-
-    background-color: rgb(255, 255, 255, 0.05);
-    box-shadow: 100px, 100px, 10px, 10px, rgb(0, 0, 0, 0.75);
-    backdrop-filter: blur(10px);
-}
