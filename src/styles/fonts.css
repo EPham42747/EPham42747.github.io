@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.woff"), url("../fonts/Montserrat-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Italic.woff"), url("../fonts/Montserrat-Italic.woff2");
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Medium.woff"), url("../fonts/Montserrat-Medium.woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-MediumItalic.woff"), url("../fonts/Montserrat-MediumItalic.woff2");
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.woff"), url("../fonts/Montserrat-Bold.woff2");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-BoldItalic.woff"), url("../fonts/Montserrat-BoldItalic.woff2");
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-Regular.woff"), url("../fonts/Oswald-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-Medium.woff"), url("../fonts/Oswald-Medium.woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-Bold.woff"), url("../fonts/Oswald-Bold.woff2");
+    font-style: normal;
+    font-weight: 700;
+}

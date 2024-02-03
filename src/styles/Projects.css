@@ -1,0 +1,30 @@
+.projects-container {
+  width: 100%;
+  padding: 5vh 0px;
+}
+
+.projects-carousel {
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
+
+.project-card-container {
+  aspect-ratio: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-card-container a {
+  text-decoration-color: rgb(255, 255, 255);
+}
+
+.project-text {
+  margin: 0px;
+  text-align: center;
+}

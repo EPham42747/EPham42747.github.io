@@ -1,0 +1,56 @@
+h1 {
+  width: fit-content;
+
+  background: linear-gradient(to right, #0050bf 0%, #a95ae2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 28pt;
+}
+
+h2 {
+  width: fit-content;
+  margin: 0.5em 0px;
+
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 24pt;
+}
+  
+h4 {
+  width: fit-content;
+
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+  
+p {
+  font-family: "Montserrat";
+}
+
+.caption {
+  width: 100%;
+
+  font-family: "Oswald";
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.black {
+  color: #05101f;
+}
+
+.dark-gray {
+  color: #3a3a3a;
+}
+
+.light-gray {
+  color: rgb(80, 80, 80);
+}
+
+.white {
+  color: #f0f3fa;
+}

@@ -1,0 +1,78 @@
+.about-container {
+  width: 100%;
+  padding: 25vh 0px 5vh 0px;
+}
+
+.bio-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bio-wrapper {
+  width: 65%;
+}
+
+.pfp-container {
+  width: 30%;
+  padding-top: 3%;
+}
+
+.pfp-container img {
+  width: 100%;
+  aspect-ratio: 1;
+  margin: 0px;
+
+  border-radius: 2vw;
+  box-shadow: 0px 0px 10px rgb(169, 90, 226, 1);
+}
+
+
+.tech-container {
+  width: 90%;
+  margin: 5%;
+
+  border-radius: 2vh;
+  background-image: conic-gradient(at 0% 100%, rgb(0, 80, 191) -45deg, rgb(169, 90, 226) 270deg);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
+
+.tech-wrapper {
+  width: 90%;
+  margin: auto;
+  padding: 2.5%;
+}
+
+.tech-info {
+  margin-top: 0px;
+  color: #f0f3fa;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(4rem, 100%), 2fr));
+  gap: 1rem;
+}
+
+
+.tech-card {
+  background-color: #f0f3fa;
+  margin: 5% 0px 0px 0px;
+
+  border-radius: 0.5vw;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+
+  transition: all 0.2s;
+}
+
+.tech-card:hover {
+  margin: 0px 0px 5% 0px;
+  background-color: rgb(175, 142, 235);
+}
+
+.tech-image {
+  width: 60%;
+  margin: 15% 20% 0px 20%;
+}
