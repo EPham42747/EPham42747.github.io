@@ -16,7 +16,7 @@ export default function About() {
     <h1>Ethan Pham</h1>
   );
   const about1 = (
-    <h4>A <b>student</b>. A <b>problem solver</b>. An aspiring <b>software engineer</b>.</h4>
+    <p>A <b>student</b>. A <b>problem solver</b>. An aspiring <b>software engineer</b>.</p>
   );
   const about2 = (
     <p>Hi there! I'm a student at the <b>University of Massachusetts Amherst</b> studying <b>computer science</b>. I'm facinated by all things tech and hope to apply what I learn to <b>high-impact</b>, <b>large-scale projects</b>.</p>

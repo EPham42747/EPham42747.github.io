@@ -20,6 +20,19 @@
   padding-top: 3%;
 }
 
+@media screen and (max-width: 800px) {
+  .bio-container {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+  .bio-wrapper {
+    width: 100%;
+  }
+  .pfp-container {
+    width: 50%;
+  }
+}
+
 .pfp-container img {
   width: 100%;
   aspect-ratio: 1;
@@ -59,7 +72,7 @@
 
 .tech-card {
   background-color: #f0f3fa;
-  margin: 5% 0px 0px 0px;
+  margin: 5% 0px 5% 0px;
 
   border-radius: 0.5vw;
   box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
@@ -68,7 +81,7 @@
 }
 
 .tech-card:hover {
-  margin: 0px 0px 5% 0px;
+  margin: 0px 0px 10% 0px;
   background-color: rgb(175, 142, 235);
 }
 

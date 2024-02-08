@@ -63,7 +63,7 @@ function ProjectCard({image, title, description, technology, github}) {
   return (
     <div className="project-card-container" style={style(image)}>
       <a href={github} target="_blank" rel="noopener noreferrer">
-        <h4 className="project-text white">{title}</h4>
+        <p className="project-text white">{title}</p>
       </a>
       <p className="project-text white">{description}</p>
       <p className="project-text white">{technology}</p>
