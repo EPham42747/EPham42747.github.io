@@ -39,13 +39,15 @@ export interface PortfolioData {
   projects: Project[]
 }
 
+const base = import.meta.env.BASE_URL
+
 export const portfolioData: PortfolioData = {
   name: "Ethan",
   bio: `
     Software engineer and student with a love for complex engineering challenges.
     I'm studying computer science at UPenn and recently interned at Microsoft.
   `,
-  avatarUrl: "/pfp.png",
+  avatarUrl: `${base}pfp.png`,
   contact: {
     email: "ethan@example.com",
     github: "https://github.com/EPham42747",
@@ -59,7 +61,7 @@ export const portfolioData: PortfolioData = {
       location: "Redmond, WA",
       period: "May 2026 – Aug 2026",
       summary: "Copilot & Feedback, Visual Studio",
-      logoUrl: "/logos/microsoft.png",
+      logoUrl: `${base}logos/microsoft.png`,
     },
     {
       role: "Research Assistant",
@@ -67,7 +69,7 @@ export const portfolioData: PortfolioData = {
       location: "Remote",
       period: "Jun 2025 – Jan 2026",
       summary: "Neuro-Oncology, Department of Neurology",
-      logoUrl: "/logos/bidmc.png",
+      logoUrl: `${base}logos/bidmc.png`,
     },
     {
       role: "AI Engineer Intern",
@@ -75,7 +77,7 @@ export const portfolioData: PortfolioData = {
       location: "Cambridge, MA",
       period: "Jun 2025 – Aug 2025",
       summary: "US Business Unit DD&T",
-      logoUrl: "/logos/takeda.webp",
+      logoUrl: `${base}logos/takeda.webp`,
     },
     {
       role: "Research Assistant",
@@ -83,7 +85,7 @@ export const portfolioData: PortfolioData = {
       location: "Amherst, MA",
       period: "Sep 2024 – May 2025",
       summary: "STIMA Lab, Manning CICS",
-      logoUrl: "/logos/umass.png",
+      logoUrl: `${base}logos/umass.png`,
     },
     {
       role: "Data Engineer Intern",
@@ -91,7 +93,7 @@ export const portfolioData: PortfolioData = {
       location: "Remote",
       period: "May 2024 – Aug 2024",
       summary: "Plasma-Derived Therapies DD&T",
-      logoUrl: "/logos/takeda.webp",
+      logoUrl: `${base}logos/takeda.webp`,
     },
   ],
   education: [
@@ -101,7 +103,7 @@ export const portfolioData: PortfolioData = {
       location: "Philadelphia, PA",
       period: "2026 – 2028",
       additionalInfo: "Concentration in Artificial Intelligence",
-      logoUrl: "/logos/penn.png",
+      logoUrl: `${base}logos/penn.png`,
     },
     {
       degree: "BS Computer Science",
@@ -109,7 +111,7 @@ export const portfolioData: PortfolioData = {
       location: "Amherst, MA",
       period: "2023 – 2026",
       additionalInfo: "Business Minor",
-      logoUrl: "/logos/umass.png",
+      logoUrl: `${base}logos/umass.png`,
     },
   ],
   projects: [
